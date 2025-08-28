@@ -9,7 +9,11 @@ namespace TuProyecto.Controllers
         [HttpGet("mensaje")]
         public IActionResult GetMensaje()
         {
+
+            return Ok("Nuevo mensaje desde la corrección");
+
             return Ok("Error desde visual");
+
         }
     }
 }
