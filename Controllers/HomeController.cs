@@ -9,7 +9,7 @@ namespace TuProyecto.Controllers
         [HttpGet("mensaje")]
         public IActionResult GetMensaje()
         {
-            return Ok("Error en el mensaje");
+            return Ok("Hello World desde la nueva funcionalidad");
         }
     }
 }
