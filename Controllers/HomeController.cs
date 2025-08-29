@@ -10,7 +10,9 @@ namespace TuProyecto.Controllers
         public IActionResult GetMensaje()
         {
 
-            return Ok("Error desde visual parte dos");
+            return Ok("Nuevo mensaje desde la corrección");
+
+            return Ok("Error desde visual");
 
         }
     }
