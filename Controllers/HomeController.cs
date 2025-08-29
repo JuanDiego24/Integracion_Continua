@@ -12,8 +12,6 @@ namespace TuProyecto.Controllers
 
             return Ok("Nuevo mensaje desde la corrección");
 
-            return Ok("Error desde visual");
-
         }
     }
 }
