@@ -10,9 +10,7 @@ namespace TuProyecto.Controllers
         public IActionResult GetMensaje()
         {
 
-            return Ok("Mensaje para Monica");
-
-            return Ok("Mensaje para Enrique");
+            return Ok("Mensaje para Monica #2");
         }
     }
 }
