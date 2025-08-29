@@ -9,9 +9,7 @@ namespace TuProyecto.Controllers
         [HttpGet("mensaje")]
         public IActionResult GetMensaje()
         {
-
-
-            return Ok("Mensaje para Enrique numero dos");
+            return Ok("Mensaje unificado de Enrique y Monica");
         }
     }
 }
